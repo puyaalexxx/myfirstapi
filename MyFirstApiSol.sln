@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstApi.Tests", "MyFirst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstApi", "MyFirstApi\MyFirstApi.csproj", "{BD833527-2E00-4F78-9CCC-BE5D31411BCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstApi.GRPC", "MyFirstApi.GRPC\MyFirstApi.GRPC.csproj", "{7DCDECC7-77E8-4DF3-8BB1-867710573B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstApi.GRPC.Client", "MyFirstApi.GRPC.Client\MyFirstApi.GRPC.Client.csproj", "{ADF7C180-459F-48B4-A2CC-B23CD297E0E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{BD833527-2E00-4F78-9CCC-BE5D31411BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD833527-2E00-4F78-9CCC-BE5D31411BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD833527-2E00-4F78-9CCC-BE5D31411BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCDECC7-77E8-4DF3-8BB1-867710573B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCDECC7-77E8-4DF3-8BB1-867710573B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCDECC7-77E8-4DF3-8BB1-867710573B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCDECC7-77E8-4DF3-8BB1-867710573B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF7C180-459F-48B4-A2CC-B23CD297E0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF7C180-459F-48B4-A2CC-B23CD297E0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF7C180-459F-48B4-A2CC-B23CD297E0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF7C180-459F-48B4-A2CC-B23CD297E0E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
