@@ -1,6 +1,0 @@
-@MyFirstApi_HostAddress = http://localhost:5145
-
-GET {{MyFirstApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
